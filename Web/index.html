@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hurtado</title>
@@ -26,7 +27,7 @@
             display: flex;
             position: absolute;
             width: 100%;
-            bottom: 0px;
+            bottom: 20px;
             height: 50px;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -40,12 +41,17 @@
         }
         
         .social a img {
-            height: 24px;
+            height: 28px;
         }
         
         @media only screen and (max-width: 600px) {
+            .social a img {
+                height: 24px;
+            }
             .bg {
                 background-image: url(./Hurtado_Mobilepage.jpg);
+                background-size: contain;
+                background-position: top;
             }
         }
     </style>
@@ -58,7 +64,7 @@
                 <img src="./SM-04.png" alt="" srcset=""></a>
             </a>
             <a href="https://www.facebook.com/hurtado.india" target="_blank" rel="noopener noreferrer">
-                <img src="./SM-02.png" alt="" srcset=""></a>
+                <img src="./SM-01.png" alt="" srcset=""></a>
             <a href="https://www.instagram.com/hurtado.in/" target="_blank" rel="noopener noreferrer">
                 <img src="./SM-03.png" alt="" srcset=""></a>
             </a>
