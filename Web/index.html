@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtado</title>
+    <style>
+        body {
+            background: #000000;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .bg {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(./Hurtado_Webpage.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .social {
+            display: flex;
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+            height: 50px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .social a {
+            padding: 5px;
+        }
+        
+        .social a img {
+            height: 24px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .bg {
+                background-image: url(./Hurtado_Mobilepage.jpg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="social">
+            <a target="_blank" rel="noopener noreferrer">
+                <img src="./SM-04.png" alt="" srcset=""></a>
+            </a>
+            <a href="https://www.facebook.com/hurtado.india" target="_blank" rel="noopener noreferrer">
+                <img src="./SM-02.png" alt="" srcset=""></a>
+            <a href="https://www.instagram.com/hurtado.in/" target="_blank" rel="noopener noreferrer">
+                <img src="./SM-03.png" alt="" srcset=""></a>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
